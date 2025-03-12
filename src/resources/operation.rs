@@ -382,6 +382,7 @@ pub struct LiquidityPoolWithdrawOperation {
 pub enum HostFunctionType {
     HostFunctionTypeHostFunctionTypeInvokeContract,
     HostFunctionTypeHostFunctionTypeCreateContract,
+    HostFunctionTypeHostFunctionTypeCreateContractV2,
     HostFunctionTypeHostFunctionTypeUploadContractWasm,
 }
 
